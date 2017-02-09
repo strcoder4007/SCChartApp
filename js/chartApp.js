@@ -1,65 +1,81 @@
 var app = angular.module('SCChartApp', ['ng-fusioncharts']);
     app.controller('MyController', function($scope) {
         $scope.events = {
+            /*
             dataplotclick: function(ev, props) {
                 $scope.$apply(function() {
-                    $scope.colorValue = "background-color:" + props.categoryLabel + ";";
+                    //$scope.colorValue = "background-color:" + props.categoryLabel + ";";
                 });
             }
+            */
         };
-  $scope.dataSource = {
-    "chart": {
-      "caption": "",
-      "captionFontSize": "30",
-      "captionPadding": "25",
-      "baseFontSize": "16",
-      "canvasBorderAlpha": "0",
-      "showPlotBorder": "0",
-      "placevaluesInside": "1",
-      "valueFontColor": "#ffffff",
-      "captionFontBold": "0",
-      "bgColor": "#2C3E50",
-      "divLineAlpha": "50",
-      "plotSpacePercent": "10",
-      "bgAlpha": "95",
-      "canvasBgAlpha": "0",
-      "outCnvBaseFontColor": "#FFFFFF",
-      "showValues": "0",
-      "baseFont": "Open Sans",
-      "paletteColors": "#6495ED, #FF6347, #90EE90, #FFD700, #FF1493",
-      "toolTipBorderColor": "#FFFFFF",
-      "toolTipBorderThickness": "1",
-      "toolTipBorderRadius": "2",
-      "toolTipBgColor": "#000000",
-      "toolTipBgAlpha": "70",
-      "toolTipPadding": "12",
-      "toolTipSepChar": " - ",
-      "xAxisNameFontSize": "18",
-      "yAxisNameFontSize": "18",
-      "xAxisNamePadding": "10",
-      "yAxisNamePadding": "10",
-      "xAxisName": "Colors",
-      "yAxisName": "Column Size",
-      "xAxisNameFontBold": "0",
-      "yAxisNameFontBold": "0",
-      "showXAxisLine": "1",
-      "xAxisLineColor": "#999999",
+        {
+
+    $scope.dataSource = {
+        "chart": {
+        "caption": "Top Goal Scorers for FC Barcelona",
+        "subcaption": "2015-16",
+        "yaxisname": "No. of Goals",
+        "showvalues": "0",
+        "plotgradientcolor": "",
+        "canvasbgalpha": "0",
+        "bgalpha": "0",
+        "plotborderalpha": "0",
+        "canvasborderalpha": "0",
+        "showborder": "0",
+        "showalternatehgridcolor": "0",
+        "rotatelabels": "1",
+        "slantlabels": "1",
+        "captionpadding": "20",
+        "tooltipbgcolor": "138dd7",
+        "tooltipcolor": "ffffff",
+        "tooltipbordercolor": "138dd7",
+        "showtooltipshadow": "0",
+        "palettecolors": "5167c7"
     },
-    "data": [{
-      "label": "CornflowerBlue",
-      "value": "42"
-    }, {
-      "label": "Tomato",
-      "value": "81"
-    }, {
-      "label": "LightGreen",
-      "value": "73"
-    }, {
-      "label": "Gold",
-      "value": "62"
-    }, {
-      "label": "DeepPink",
-      "value": "89"
-    }]
-  };
+    "data": [
+        {
+            "label": "Luis Suarez",
+            "value": "45",
+            "color": "1AB7D9"
+        },
+        {
+            "label": "Lionel Messi",
+            "value": "38"
+        },
+        {
+            "label": "Neymar",
+            "value": "27"
+        },
+        {
+            "label": "Ivan Rakitic",
+            "value": "7"
+        },
+        {
+            "label": "Gerard Pique",
+            "value": "5"
+        },
+        {
+            "label": "Arda Turan",
+            "value": "2"
+        },
+        {
+            "label": "Adriano",
+            "value": "1"
+        },
+        {
+            "label": "Dani Alves",
+            "value": "1"
+        },
+        {
+            "label": "Marc Bartra",
+            "value": "1"
+        },
+        {
+            "label": "Andres Iniesta",
+            "value": "1"
+        }
+    ]
+    }
+}
 });
