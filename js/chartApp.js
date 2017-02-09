@@ -9,7 +9,7 @@ var app = angular.module('SCChartApp', ['ng-fusioncharts']);
         };
   $scope.dataSource = {
     "chart": {
-      "caption": "Column Chart Built in Angular!",
+      "caption": "",
       "captionFontSize": "30",
       "captionPadding": "25",
       "baseFontSize": "16",
@@ -27,7 +27,6 @@ var app = angular.module('SCChartApp', ['ng-fusioncharts']);
       "showValues": "0",
       "baseFont": "Open Sans",
       "paletteColors": "#6495ED, #FF6347, #90EE90, #FFD700, #FF1493",
-      "theme": "zune",
       "toolTipBorderColor": "#FFFFFF",
       "toolTipBorderThickness": "1",
       "toolTipBorderRadius": "2",
