@@ -54,6 +54,7 @@
 		    </div>
 		</nav>
 
+<!--
 		<div class="modal fade" id="fileModal" role="dialog">
 			<div class="modal-dialog modal-sm">
 		      <div class="modal-content">
@@ -103,15 +104,70 @@
 			  </div>
 			</div>
 		  </div>
+-->
 
+
+
+<div class="modal fade" id="fileModal" role="dialog">
+	<div class="modal-dialog modal-sm">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <button type="button" class="close" data-dismiss="modal">&times;</button>
+		  <h4 class="modal-title">Choose a file</h4>
+		</div>
+		<div class="modal-body">
+			<input type="file" on-read-file="showContent($fileContent)"/>
+		</div>
+		<!-- <div ng-if!="content"><center><h5>The file is of wrong format or empty.</h5></center></div> -->
+		<div class="modal-footer">
+			<button type = "button" data-dismiss = "modal" class = "btn btn-info" ng-click = "data = content">Done</button>
+			<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+<div class="modal fade" id="dataModal" role="dialog">
+	<div class="modal-dialog modal-lg">
+	  <div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Enter data manually</h4>
+			<div class="dropdown">
+				<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+					Choose data format
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+				  <li><a href="#" ng-click = "dataType = 'jsonurl'">JSON</a></li>
+				  <li><a href="#" ng-click = "dataType = 'xmlurl'">XML</a></li>
+				  <li><a href="#" ng-click = "dataType = ''">CSV</a></li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="modal-body">
+			<div class="form-group">
+				<textarea class="form-control" rows="10" id="comment" ng-model = "rawData"></textarea>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button type = "button" data-dismiss = "modal" class = "btn btn-info" ng-click = "data = rawData">Done</button>
+			<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+  
 		<div>
 			<fusioncharts
 				chartid="angularChart"
 				dataformat="{{dataType || 'jsonurl'}}"
-    			datasource="{{data}}"
+				type="{{chartType || 'line'}}"
+				datasource="{{data}}"
 				width="100%"
 				height="550"
-				type="{{chartType || 'line'}}"
 				events="events">
 				loading...
 			</fusioncharts>
