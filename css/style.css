@@ -2,13 +2,3 @@
 	font-family: "Open Sans", sans-serif;
 	margin: 0;
 }
-.statusbar {
-	background-color: #2C3E50;
-	color: #FFFFFF;
-	font-size: 2rem;
-	text-align: center;
-	padding: 20px 5px;
-}
-.dropdown {
-	padding: 10px 10px 0px 0px;
-}

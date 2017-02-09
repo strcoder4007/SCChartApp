@@ -26,11 +26,18 @@
 		          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Chart Types
 		          <span class="caret"></span></a>
 		          <ul class="dropdown-menu">
-		            <li><a href="#">Bar</a></li>
-					<li><a href="#">Doughnut</a></li>
-					<li><a href="#">Pie</a></li>
-					<li><a href="#">Horizontal Bar</a></li>
-		            <li><a href="#">Bubble</a></li>
+					<li><a href="#" ng-click="chartType='column2D'" >Column 2D</a></li>
+					<li><a href="#" ng-click="chartType='column3D'" >Column 3D</a></li>
+					<li><a href="#" ng-click="chartType='line'" >Line</a></li>
+					<li><a href="#" ng-click="chartType='area2D'" >Area 2D</a></li>
+					<li><a href="#" ng-click="chartType='bar2D'" >Bar 2D</a></li>
+					<li><a href="#" ng-click="chartType='bar3D'" >Bar 3D</a></li>
+					<li><a href="#" ng-click="chartType='pie2D'" >Pie 2D</a></li>
+					<li><a href="#" ng-click="chartType='pie3D'" >Pie 3D</a></li>
+					<li><a href="#" ng-click="chartType='doughnut2D'" >Doughnut 2D</a></li>
+					<li><a href="#" ng-click="chartType='doughnut3D'" >Doughnut 3D</a></li>
+					<li><a href="#" ng-click="chartType='pareto2D'" >Pareto 2D</a></li>
+					<li><a href="#" ng-click="chartType='pareto3D'" >Pareto 3D</a></li>
 		          </ul>
 		        </li>
 				<li class="dropdown">
@@ -49,12 +56,13 @@
 
 		<div>
 			<fusioncharts
+				ng-init="chartType='line'"
 				chartid="angularChart"
 				dataformat="jsonurl"
     			datasource="data.json"
 				width="100%"
 				height="550"
-				type="pie2d"
+				type="{{chartType}}"
 				events="events">
 				loading...
 			</fusioncharts>
