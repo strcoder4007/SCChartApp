@@ -1,24 +1,21 @@
 <html ng-app="chartApp">
 	<head>
-  	<title>How to Build Charts in Angular</title>
-  	<meta name="description" content="Live demo for building charts in AngularJS. Tutorial for this demo is present on David Walsh's Blog.">
+  	<title>Social Cops Chart App</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="https://code.angularjs.org/1.4.1/angular.min.js"></script>
+	<script type="text/javascript" src="js/zune-theme.js"></script>
   	<script type="text/javascript" src="js/fusioncharts.js"></script>
 	<script type="text/javascript" src="js/fusioncharts.charts.js"></script>
   	<script type="text/javascript" src="js/angular-fusioncharts.min.js"></script>
-  	<script type="text/javascript" src="js/zune-theme.js"></script>
-  	<script type="text/javascript">
+	<script type="text/javascript">
 
     	var app = angular.module('chartApp', ['ng-fusioncharts']);
     	app.controller('MyController', function($scope) {
-      		$scope.selectedValue = "Please click on any column above.";
       		$scope.events = {
         		dataplotclick: function(ev, props) {
           			$scope.$apply(function() {
             			$scope.colorValue = "background-color:" + props.categoryLabel + ";";
-            			$scope.selectedValue = "You clicked on " + props.categoryLabel + " color column!";
           			});
         		}
       		};
@@ -86,18 +83,12 @@
     });
 	</script>
 	</head>
+
 	<body ng-controller="MyController">
-	<div>
-		<fusioncharts  id="mychartcontainer" chartid="angularChart" width="100%"  height="500" type="column2d" dataSource="{{dataSource}}" events="events">
-			Awesome Chart on its way!
-		</fusioncharts>
-	</div>
-	<div class="statusbar" style="{{ colorValue }}">{{ selectedValue }}</div>
-  	<p class="learnMore">
-    	Made using
-		<a target="_blank" href="http://www.fusioncharts.com/">FusionCharts</a> and its
-		<a target="_blank" href="http://www.fusioncharts.com/angularjs-charts/">Angular charts</a> plugin. To return to the tutorial,
-		<a target="_blank" href="https://davidwalsh.name/angular-charts">click here</a>.
-  	</p>
-</body>
+		<div>
+			<fusioncharts  id="mychartcontainer" chartid="angularChart" width="100%"  height="500" type="column2d" dataSource="{{dataSource}}" events="events">
+				Awesome Chart on its way!
+			</fusioncharts>
+		</div>
+	</body>
 </html>
