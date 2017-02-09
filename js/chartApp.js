@@ -10,10 +10,8 @@ var app = angular.module('SCChartApp', ['ng-fusioncharts']);
         };
         */
         {
-            $scope.updateData = function() {
-                dataType = 'jsonurl';
-                dropdownType = 'JSON';
-                alert("working");
+            $scope.test = function(text) {
+                alert(text);
             }
             $scope.dataSource = {}
         }

@@ -59,13 +59,14 @@
 		      <div class="modal-content">
 		        <div class="modal-header">
 		          <button type="button" class="close" data-dismiss="modal">&times;</button>
-		          <h4 class="modal-title">Choose a file</h4>
+		          <h4 class="modal-title">Enter the destination</h4>
 		        </div>
 		        <div class="modal-body">
-		          <p>FilePicker</p>
+		        	<input type = "text" class = "form-control" ng-model = "rawData"/>
 		        </div>
 		        <div class="modal-footer">
-		          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type = "button" data-dismiss = "modal" class = "btn btn-info" ng-click = "data = rawData">Done</button>
+		          	<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 		        </div>
 		      </div>
 		    </div>
@@ -76,10 +77,10 @@
 			  <div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				  	<h4 class="modal-title">Enter data below</h4>
+				  	<h4 class="modal-title">Enter data manually</h4>
 					<div class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-							Choose data type
+							Choose data format
 					    	<span class="caret"></span>
 						</button>
 					    <ul class="dropdown-menu">
@@ -88,20 +89,20 @@
 					      <li><a href="#" ng-click = "dataType = ''">CSV</a></li>
 					    </ul>
 					</div>
+
 				</div>
 				<div class="modal-body">
 					<div class="form-group">
-					  <textarea class="form-control" rows="10" id="comment" ng-model = "data"></textarea>
-					  <button class = "btn btn-default">Done</button>
+						<textarea class="form-control" rows="10" id="comment" ng-model = "rawData"></textarea>
 					</div>
 				</div>
 				<div class="modal-footer">
-				  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type = "button" data-dismiss = "modal" class = "btn btn-info" ng-click = "data = rawData">Done</button>
+		          	<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 				</div>
 			  </div>
 			</div>
 		  </div>
-
 
 		<div>
 			<fusioncharts
