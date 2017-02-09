@@ -17,37 +17,44 @@
 
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
-		    	<div class="navbar-header">
-		        	<a class="navbar-brand" href="#">Social Cops Chart App</a>
-		    	</div>
-		    	<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Charts</a></li>
-					<li><a href="#">Page 1</a></li>
-					<li><a href="#">Page 2</a></li>
-					<li><a href="#">Page 3</a></li>
-		      	</ul>
+		      <div class="navbar-header">
+		        <a class="navbar-brand" href="#">Social Cops Chart App</a>
+		      </div>
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Home</a></li>
+		        <li class="dropdown">
+		          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Chart Types
+		          <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Bar</a></li>
+					<li><a href="#">Doughnut</a></li>
+					<li><a href="#">Pie</a></li>
+					<li><a href="#">Horizontal Bar</a></li>
+		            <li><a href="#">Bubble</a></li>
+		          </ul>
+		        </li>
+				<li class="dropdown">
+		          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Source
+		          <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">JSON File</a></li>
+					<li><a href="#">XML File</a></li>
+					<li><a href="#">CSV File</a></li>
+					<li><a href="#">Enter Data</a></li>
+		          </ul>
+		        </li>
+		      </ul>
 		    </div>
 		</nav>
 
-		<div class="dropdown">
-    		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-				Choose Charts
-    			<span class="caret"></span>
-			</button>
-			<ul class="dropdown-menu">
-				<li><a href="#" ng-model = "column2d">2D Column</a></li>
-	  			<li><a href="#" ng-model = "column3d">3D Column</a></li>
-			</ul>
-  		</div>
-
 		<div>
 			<fusioncharts
-				id="mychartcontainer"
 				chartid="angularChart"
-				width="80%"
-				height="450"
-				type="column2d"
-				dataSource="{{dataSource}}"
+				dataformat="jsonurl"
+    			datasource="data.json"
+				width="100%"
+				height="550"
+				type="pie2d"
 				events="events">
 				loading...
 			</fusioncharts>
