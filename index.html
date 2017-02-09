@@ -1,0 +1,103 @@
+<html ng-app="chartApp">
+	<head>
+  	<title>How to Build Charts in Angular</title>
+  	<meta name="description" content="Live demo for building charts in AngularJS. Tutorial for this demo is present on David Walsh's Blog.">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="https://code.angularjs.org/1.4.1/angular.min.js"></script>
+  	<script type="text/javascript" src="js/fusioncharts.js"></script>
+	<script type="text/javascript" src="js/fusioncharts.charts.js"></script>
+  	<script type="text/javascript" src="js/angular-fusioncharts.min.js"></script>
+  	<script type="text/javascript" src="js/zune-theme.js"></script>
+  	<script type="text/javascript">
+
+    	var app = angular.module('chartApp', ['ng-fusioncharts']);
+    	app.controller('MyController', function($scope) {
+      		$scope.selectedValue = "Please click on any column above.";
+      		$scope.events = {
+        		dataplotclick: function(ev, props) {
+          			$scope.$apply(function() {
+            			$scope.colorValue = "background-color:" + props.categoryLabel + ";";
+            			$scope.selectedValue = "You clicked on " + props.categoryLabel + " color column!";
+          			});
+        		}
+      		};
+
+      $scope.dataSource = {
+        "chart": {
+          "caption": "Column Chart Built in Angular!",
+          "captionFontSize": "30",
+          "captionPadding": "25",
+          "baseFontSize": "16",
+          "canvasBorderAlpha": "0",
+          "showPlotBorder": "0",
+          "placevaluesInside": "1",
+          "valueFontColor": "#ffffff",
+          "captionFontBold": "0",
+          "bgColor": "#2C3E50",
+          "divLineAlpha": "50",
+          "plotSpacePercent": "10",
+          "bgAlpha": "95",
+          "canvasBgAlpha": "0",
+          "outCnvBaseFontColor": "#FFFFFF",
+          "showValues": "0",
+          "baseFont": "Open Sans",
+          "paletteColors": "#6495ED, #FF6347, #90EE90, #FFD700, #FF1493",
+          "theme": "zune",
+
+          "toolTipBorderColor": "#FFFFFF",
+          "toolTipBorderThickness": "1",
+          "toolTipBorderRadius": "2",
+          "toolTipBgColor": "#000000",
+          "toolTipBgAlpha": "70",
+          "toolTipPadding": "12",
+          "toolTipSepChar": " - ",
+
+          "xAxisNameFontSize": "18",
+          "yAxisNameFontSize": "18",
+          "xAxisNamePadding": "10",
+          "yAxisNamePadding": "10",
+          "xAxisName": "Colors",
+          "yAxisName": "Column Size",
+          "xAxisNameFontBold": "0",
+          "yAxisNameFontBold": "0",
+          "showXAxisLine": "1",
+          "xAxisLineColor": "#999999",
+
+        },
+        "data": [{
+          "label": "CornflowerBlue",
+          "value": "42"
+        }, {
+          "label": "Tomato",
+          "value": "81"
+        }, {
+          "label": "LightGreen",
+          "value": "73"
+        }, {
+          "label": "Gold",
+          "value": "62"
+        }, {
+          "label": "DeepPink",
+          "value": "89"
+        }]
+      };
+
+    });
+	</script>
+	</head>
+	<body ng-controller="MyController">
+	<div>
+		<fusioncharts  id="mychartcontainer" chartid="angularChart" width="100%"  height="500" type="column2d" dataSource="{{dataSource}}" events="events">
+			Awesome Chart on its way!
+		</fusioncharts>
+	</div>
+	<div class="statusbar" style="{{ colorValue }}">{{ selectedValue }}</div>
+  	<p class="learnMore">
+    	Made using
+		<a target="_blank" href="http://www.fusioncharts.com/">FusionCharts</a> and its
+		<a target="_blank" href="http://www.fusioncharts.com/angularjs-charts/">Angular charts</a> plugin. To return to the tutorial,
+		<a target="_blank" href="https://davidwalsh.name/angular-charts">click here</a>.
+  	</p>
+</body>
+</html>
