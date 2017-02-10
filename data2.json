@@ -1,8 +1,7 @@
 {
     "chart": {
-    "caption": "Top Goal Scorers for FC Barcelona",
-    "subcaption": "2015-16",
-    "yaxisname": "No. of Goals",
+    "caption": "Messi Stats",
+    "subcaption": "All time",
     "showvalues": "0",
     "plotgradientcolor": "",
     "canvasbgalpha": "0",
@@ -19,48 +18,77 @@
     "tooltipbordercolor": "138dd7",
     "showtooltipshadow": "0",
     "palettecolors": "5167c7"
-},
-"data": [
+    },
+"alldata": [
     {
-        "label": "Lionel Messi",
-        "value": "38"
+        "opposition":"Real Madrid1",
+        "stadium":"A",
+        "goals": "38",
+        "age": "35",
+        "country": "Country1"
     },
     {
-        "label": "Neymar",
-        "value": "27"
+        "opposition":"Real Madrid2",
+        "stadium":"B",
+        "goals": "27",
+        "age": "36",
+        "country": "Country2"
     },
     {
-        "label": "Ivan Rakitic",
-        "value": "7"
+        "opposition":"Real Madrid3",
+        "stadium":"C",
+        "goals": "7",
+        "age": "37",
+        "country": "Country3"
     },
     {
-        "label": "Gerard Pique",
-        "value": "10"
+        "opposition":"Real Madrid4",
+        "stadium":"D",
+        "goals": "10",
+        "age": "38",
+        "country": "Country4"
     },
     {
-        "label": "Arda Turan",
-        "value": "20"
+        "opposition":"Real Madrid5",
+        "stadium":"E",
+        "goals": "20",
+        "age": "39",
+        "country": "Country5"
     },
     {
-        "label": "Luis Suarez",
-        "value": "30",
-        "color": "1AB7D9"
+        "opposition":"Real Madrid6",
+        "stadium":"F",
+        "goals": "30",
+        "age": "40",
+        "country": "Country6"
     },
     {
-        "label": "Adriano",
-        "value": "6"
+        "opposition":"Real Madrid7",
+        "stadium":"G",
+        "goals": "6",
+        "age": "41",
+        "country": "Country7"
     },
     {
-        "label": "Dani Alves",
-        "value": "15"
+        "opposition":"Real Madrid8",
+        "stadium":"H",
+        "goals": "15",
+        "age": "42",
+        "country": "Country8"
     },
     {
-        "label": "Marc Bartra",
-        "value": "9"
+        "opposition":"Real Madrid9",
+        "stadium":"I",
+        "goals": "9",
+        "age": "43",
+        "country": "Country9"
     },
     {
-        "label": "Andres Iniesta",
-        "value": "14"
+        "opposition":"Real Madrid10",
+        "stadium":"J",
+        "goals": "44",
+        "age": "35",
+        "country": "Country10"
     }
 ]
 }

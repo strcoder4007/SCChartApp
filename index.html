@@ -107,14 +107,17 @@
 		  </div>
 -->
 
+<!--
 <div ng-controller = "myCtrl">
-    <span>Select Label</span>
-    <select ng-model="selectedCustomer1" ng-options="customer.CustomerID as customer.CompanyName for customer in listOfCustomers" style="width:300px;"></select>
-	<span>Select Value</span>
-	<select ng-model="selectedCustomer2" ng-options="customer.CustomerID as customer.CompanyName for customer in listOfCustomers" style="width:300px;"></select>
-	<button class = "btn btn-default">Go</button>
+	<center>
+		<span>Select X-axis</span>
+		<select ng-model="items" ng-options="item in items" style="width:300px;"></select>
+		<span>Select Y-axis</span>
+		<select ng-model="items" ng-options="item in items" style="width:300px;"></select>
+		<button class = "btn btn-default">Go</button>
+	</center>
 </div>
-
+-->
 <div class="modal fade" id="fileModal" role="dialog">
 	<div class="modal-dialog modal-sm">
 	  <div class="modal-content">
@@ -184,7 +187,7 @@
 				type="{{chartType || 'line'}}"
 				datasource="{{'data1.json' || data}}"
 				width="100%"
-				height="550"
+				height="540"
 				events="events">
 				loading...
 			</fusioncharts>
