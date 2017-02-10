@@ -1,0 +1,396 @@
+{
+  "result": {
+    "ongoing": [
+      {
+        "EndTime": "Mon, 13 Feb 2017 15:00",
+        "Name": "February Challenge 2017",
+        "Platform": "CODECHEF",
+        "url": "http://www.codechef.com/FEB17"
+      },
+      {
+        "EndTime": "Fri, 17 Feb 2017 07:30",
+        "Name": "Connectivity Map 2",
+        "Platform": "TOPCODER",
+        "url": "http://tco15.topcoder.com/algorithm/rules/"
+      },
+      {
+        "EndTime": "Wed, 01 Mar 2017 07:30",
+        "Name": "HMS Lung Cancer MM",
+        "Platform": "TOPCODER",
+        "url": "http://tco15.topcoder.com/algorithm/rules/"
+      },
+      {
+        "EndTime": "Sun, 26 Mar 2017 23:59",
+        "Name": "Granular Deep Learning",
+        "Platform": "HACKEREARTH",
+        "challenge_type": "contest",
+        "url": "https://granular-deep-dive.hackerearth.com"
+      },
+      {
+        "EndTime": "Fri, 05 Jan 2018 00:00",
+        "Name": "INOI Practice 2015",
+        "Platform": "CODECHEF",
+        "url": "http://www.codechef.com/IOIPRAC"
+      },
+      {
+        "EndTime": "Fri, 05 Jan 2018 00:00",
+        "Name": "ZCO Practice Contest",
+        "Platform": "CODECHEF",
+        "url": "http://www.codechef.com/ZCOPRAC"
+      },
+      {
+        "EndTime": "Wed, 31 Jul 2024 00:00",
+        "Name": "ProjectEuler+",
+        "Platform": "HACKERRANK",
+        "url": "https://www.hackerrank.com/projecteuler"
+      }
+    ],
+    "timestamp": "Fri, 10 Feb 2017 15:03:55",
+    "upcoming": [
+      {
+        "Duration": "1 day",
+        "EndTime": "Sun, 05 Feb 2017 00:00",
+        "Name": "hack@brown [Providence, RI]",
+        "Platform": "OTHER",
+        "StartTime": "Sat, 04 Feb 2017 00:00",
+        "url": "http://2017.hackatbrown.org/"
+      },
+      {
+        "Duration": "1 day",
+        "EndTime": "Sun, 05 Feb 2017 00:00",
+        "Name": "Hackatown 2017 [Montreal, QC, Canada]",
+        "Platform": "OTHER",
+        "StartTime": "Sat, 04 Feb 2017 00:00",
+        "url": "https://hackatown.io/"
+      },
+      {
+        "Duration": "1 day",
+        "EndTime": "Sun, 05 Feb 2017 00:00",
+        "Name": "ProfHacks 2017 [Glassboro, NJ]",
+        "Platform": "OTHER",
+        "StartTime": "Sat, 04 Feb 2017 00:00",
+        "url": "http://profhacks.com/"
+      },
+      {
+        "Duration": "2 days 5h",
+        "EndTime": "Sun, 12 Feb 2017 23:00",
+        "Name": "Cleartrip Developer Challenge",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Fri, 10 Feb 2017 18:00",
+        "challenge_type": "contest",
+        "url": "https://www.hackerearth.com/challenge/hiring/cleartrip-developer-challenge/"
+      },
+      {
+        "Duration": "2h 30m",
+        "EndTime": "Sat, 11 Feb 2017 00:00",
+        "Name": "DECATHLON",
+        "Platform": "CODECHEF",
+        "StartTime": "Fri, 10 Feb 2017 21:30",
+        "url": "http://www.codechef.com/DECA2017"
+      },
+      {
+        "Duration": "2 days",
+        "EndTime": "Sun, 12 Feb 2017 22:30",
+        "Name": "RookieRank 2",
+        "Platform": "HACKERRANK",
+        "StartTime": "Fri, 10 Feb 2017 22:30",
+        "url": "https://www.hackerrank.com/rookierank-2"
+      },
+      {
+        "Duration": "1 day",
+        "EndTime": "Sun, 12 Feb 2017 00:00",
+        "Name": "Desert Hacks 2016 [Phoenix, AZ, United States]",
+        "Platform": "OTHER",
+        "StartTime": "Sat, 11 Feb 2017 00:00",
+        "url": "http://www.deserthacks.org/"
+      },
+      {
+        "Duration": "1 day",
+        "EndTime": "Sun, 12 Feb 2017 00:00",
+        "Name": "BrickHack [Rochester, NY, United States]",
+        "Platform": "OTHER",
+        "StartTime": "Sat, 11 Feb 2017 00:00",
+        "url": "https://brickhack.io/"
+      },
+      {
+        "Duration": "1 day",
+        "EndTime": "Sun, 12 Feb 2017 00:00",
+        "Name": "PearlHacks [Chapel Hill, NC, United States]",
+        "Platform": "OTHER",
+        "StartTime": "Sat, 11 Feb 2017 00:00",
+        "url": "http://pearlhacks.com/"
+      },
+      {
+        "Duration": "1 day 6h",
+        "EndTime": "Sun, 12 Feb 2017 15:00",
+        "Name": "GE HealthHack",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Sat, 11 Feb 2017 09:00",
+        "challenge_type": "contest",
+        "url": "https://www.hackerearth.com/sprints/ge-healthhack-creating-a-smarter-healthier-india/"
+      },
+      {
+        "Duration": "1 day 12h",
+        "EndTime": "Sun, 12 Feb 2017 23:00",
+        "Name": "Accenture Hack Diva",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Sat, 11 Feb 2017 11:00",
+        "challenge_type": "contest",
+        "url": "https://www.hackerearth.com/challenge/competitive/accenture-hack-diva-campus/"
+      },
+      {
+        "Duration": "1 day",
+        "EndTime": "Sun, 12 Feb 2017 12:00",
+        "Name": "February Clash '17",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Sat, 11 Feb 2017 12:00",
+        "challenge_type": "contest",
+        "url": "https://www.hackerearth.com/challenge/competitive/february-clash-17/"
+      },
+      {
+        "Duration": "1 day",
+        "EndTime": "Sun, 12 Feb 2017 21:00",
+        "Name": "Codenigma 4.0",
+        "Platform": "HACKERRANK",
+        "StartTime": "Sat, 11 Feb 2017 21:00",
+        "url": "https://www.hackerrank.com/codenigma-4-0"
+      },
+      {
+        "Duration": "1h",
+        "EndTime": "Mon, 13 Feb 2017 22:30",
+        "Name": "HOUR OF CODE ROUND II",
+        "Platform": "HACKERRANK",
+        "StartTime": "Mon, 13 Feb 2017 21:30",
+        "url": "https://www.hackerrank.com/hour-of-code-round-ii"
+      },
+      {
+        "Duration": "14 days",
+        "EndTime": "Tue, 28 Feb 2017 07:30",
+        "Name": "DNA Sequencing 2 MM",
+        "Platform": "TOPCODER",
+        "StartTime": "Tue, 14 Feb 2017 07:30",
+        "url": "http://tco15.topcoder.com/algorithm/rules/"
+      },
+      {
+        "Duration": "2h",
+        "EndTime": "Tue, 14 Feb 2017 15:35",
+        "Name": "Codeforces Round #397 by Kaspersky Lab and Barcelona Bootcamp (Div. 1 + Div. 2 combined)",
+        "Platform": "CODEFORCES",
+        "StartTime": "Tue, 14 Feb 2017 13:35",
+        "url": "http://codeforces.com/contest/765"
+      },
+      {
+        "Duration": "2h",
+        "EndTime": "Tue, 14 Feb 2017 23:30",
+        "Name": "101 Hack 46",
+        "Platform": "HACKERRANK",
+        "StartTime": "Tue, 14 Feb 2017 21:30",
+        "url": "https://www.hackerrank.com/101hack46"
+      },
+      {
+        "Duration": "2 days",
+        "EndTime": "Sun, 19 Feb 2017 00:00",
+        "Name": "HackCentral [Winnipeg, MB, Canada]",
+        "Platform": "OTHER",
+        "StartTime": "Fri, 17 Feb 2017 00:00",
+        "url": "http://hackcentral.ca/"
+      },
+      {
+        "Duration": "2 days",
+        "EndTime": "Sun, 19 Feb 2017 00:00",
+        "Name": "HopHacks [Baltimore, MD, United States]",
+        "Platform": "OTHER",
+        "StartTime": "Fri, 17 Feb 2017 00:00",
+        "url": "https://hophacks.com/"
+      },
+      {
+        "Duration": "2 days",
+        "EndTime": "Sun, 19 Feb 2017 00:00",
+        "Name": "TreeHacks [Stanford, CA, USA]",
+        "Platform": "OTHER",
+        "StartTime": "Fri, 17 Feb 2017 00:00",
+        "url": "https://www.treehacks.com"
+      },
+      {
+        "Duration": "2 days 5h",
+        "EndTime": "Sun, 19 Feb 2017 23:00",
+        "Name": "Alacriti Fresher Hiring Challenge",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Fri, 17 Feb 2017 18:00",
+        "challenge_type": "contest",
+        "url": "https://www.hackerearth.com/challenge/hiring/alacriti-fresher-hiring-challenge/"
+      },
+      {
+        "Duration": "2 days 5h",
+        "EndTime": "Sun, 19 Feb 2017 23:00",
+        "Name": "Soroco Hiring Challenge",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Fri, 17 Feb 2017 18:00",
+        "challenge_type": "contest",
+        "url": "https://www.hackerearth.com/challenge/hiring/soroco-hiring-challenge/"
+      },
+      {
+        "Duration": "2 days 5h",
+        "EndTime": "Sun, 19 Feb 2017 23:00",
+        "Name": "Accolite Java Developer Hiring Challenge",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Fri, 17 Feb 2017 18:00",
+        "challenge_type": "contest",
+        "url": "https://www.hackerearth.com/challenge/hiring/accolite-java-developer-hiring-challenge-1/"
+      },
+      {
+        "Duration": "8 days",
+        "EndTime": "Sat, 25 Feb 2017 21:00",
+        "Name": "February Circuits '17",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Fri, 17 Feb 2017 21:00",
+        "challenge_type": "contest",
+        "url": "https://www.hackerearth.com/challenge/competitive/february-circuits-17/"
+      },
+      {
+        "Duration": "2 days",
+        "EndTime": "Sun, 19 Feb 2017 22:30",
+        "Name": "University CodeSprint 2",
+        "Platform": "HACKERRANK",
+        "StartTime": "Fri, 17 Feb 2017 22:30",
+        "url": "https://www.hackerrank.com/university-codesprint-2"
+      },
+      {
+        "Duration": "1 day 12h",
+        "EndTime": "Sun, 19 Feb 2017 23:00",
+        "Name": "Accenture Hack Diva",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Sat, 18 Feb 2017 11:00",
+        "challenge_type": "contest",
+        "url": "https://www.hackerearth.com/challenge/competitive/accenture-hack-diva-professional/"
+      },
+      {
+        "Duration": "1 day 11h",
+        "EndTime": "Sun, 19 Feb 2017 23:00",
+        "Name": "Simility Frontend Hiring Challenge",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Sat, 18 Feb 2017 12:00",
+        "challenge_type": "contest",
+        "url": "https://www.hackerearth.com/challenge/hiring/simility-frontend-hiring-challenge/"
+      },
+      {
+        "Duration": "1 day 11h 55m",
+        "EndTime": "Sun, 19 Feb 2017 23:55",
+        "Name": "KONE hackathon : Bringing Ideas to life",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Sat, 18 Feb 2017 12:00",
+        "challenge_type": "contest",
+        "url": "https://www.hackerearth.com/sprints/ibmkone-hack/"
+      },
+      {
+        "Duration": "2h 30m",
+        "EndTime": "Mon, 20 Feb 2017 00:00",
+        "Name": "February Cook-Off 2017",
+        "Platform": "CODECHEF",
+        "StartTime": "Sun, 19 Feb 2017 21:30",
+        "url": "http://www.codechef.com/COOK79"
+      },
+      {
+        "Duration": "7 days",
+        "EndTime": "Mon, 27 Feb 2017 13:30",
+        "Name": "Week of Code 29",
+        "Platform": "HACKERRANK",
+        "StartTime": "Mon, 20 Feb 2017 13:30",
+        "url": "https://www.hackerrank.com/w29"
+      },
+      {
+        "Duration": "2h",
+        "EndTime": "Tue, 21 Feb 2017 23:30",
+        "Name": "SRM",
+        "Platform": "TOPCODER",
+        "StartTime": "Tue, 21 Feb 2017 21:30",
+        "url": "http://tco15.topcoder.com/algorithm/rules/"
+      },
+      {
+        "Duration": "6h",
+        "EndTime": "Fri, 24 Feb 2017 03:00",
+        "Name": "February SQL Challenge",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Thu, 23 Feb 2017 21:00",
+        "challenge_type": "contest",
+        "url": "https://www.hackerearth.com/challenge/competitive/february-sql-challenge/"
+      },
+      {
+        "Duration": "2 days",
+        "EndTime": "Sun, 26 Feb 2017 00:00",
+        "Name": "DerbyHacks [Louisville, KY, United States]",
+        "Platform": "OTHER",
+        "StartTime": "Fri, 24 Feb 2017 00:00",
+        "url": "http://derbyhacks.io/#/home"
+      },
+      {
+        "Duration": "2 days 5h",
+        "EndTime": "Sun, 26 Feb 2017 23:00",
+        "Name": "Amazon SDE - II Hiring Challenge",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Fri, 24 Feb 2017 18:00",
+        "challenge_type": "contest",
+        "url": "https://www.hackerearth.com/challenge/hiring/amazon-sde-ii-hiring-challenge/"
+      },
+      {
+        "Duration": "3h",
+        "EndTime": "Fri, 24 Feb 2017 23:30",
+        "Name": "Deadline24 2017",
+        "Platform": "CODECHEF",
+        "StartTime": "Fri, 24 Feb 2017 20:30",
+        "url": "http://www.codechef.com/DEAD2017"
+      },
+      {
+        "Duration": "1 day",
+        "EndTime": "Sun, 26 Feb 2017 00:00",
+        "Name": "WicHacks [Rochester, NY]",
+        "Platform": "OTHER",
+        "StartTime": "Sat, 25 Feb 2017 00:00",
+        "url": "http://wic-hacks.rit.edu"
+      },
+      {
+        "Duration": "1h",
+        "EndTime": "Thu, 02 Mar 2017 22:30",
+        "Name": "HourRank 18",
+        "Platform": "HACKERRANK",
+        "StartTime": "Thu, 02 Mar 2017 21:30",
+        "url": "https://www.hackerrank.com/hourrank-18"
+      },
+      {
+        "Duration": "4 days 10h",
+        "EndTime": "Sun, 12 Mar 2017 22:00",
+        "Name": "International Women's Hackathon",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Wed, 08 Mar 2017 12:00",
+        "challenge_type": "contest",
+        "url": "https://www.hackerearth.com/challenge/competitive/international-women-hackathon-2017/"
+      },
+      {
+        "Duration": "12h",
+        "EndTime": "Sat, 11 Mar 2017 19:30",
+        "Name": "Digital Duchess",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Sat, 11 Mar 2017 07:30",
+        "challenge_type": "contest",
+        "url": "https://digital-duchess.hackerearth.com"
+      },
+      {
+        "Duration": "6 days 23h 59m",
+        "EndTime": "Mon, 20 Mar 2017 12:29",
+        "Name": "Week of Code 30",
+        "Platform": "HACKERRANK",
+        "StartTime": "Mon, 13 Mar 2017 12:30",
+        "url": "https://www.hackerrank.com/w30"
+      },
+      {
+        "Duration": "1 day 4h",
+        "EndTime": "Sun, 26 Mar 2017 15:00",
+        "Name": "GO-HACKATHON",
+        "Platform": "HACKEREARTH",
+        "StartTime": "Sat, 25 Mar 2017 11:00",
+        "challenge_type": "contest",
+        "url": "https://go-hackathon.hackerearth.com"
+      }
+    ]
+  }
+}

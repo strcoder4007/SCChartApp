@@ -22,11 +22,6 @@
 },
 "data": [
     {
-        "label": "Luis Suarez",
-        "value": "45",
-        "color": "1AB7D9"
-    },
-    {
         "label": "Lionel Messi",
         "value": "38"
     },
@@ -40,27 +35,32 @@
     },
     {
         "label": "Gerard Pique",
-        "value": "5"
+        "value": "10"
     },
     {
         "label": "Arda Turan",
-        "value": "2"
+        "value": "20"
+    },
+    {
+        "label": "Luis Suarez",
+        "value": "30",
+        "color": "1AB7D9"
     },
     {
         "label": "Adriano",
-        "value": "1"
+        "value": "6"
     },
     {
         "label": "Dani Alves",
-        "value": "1"
+        "value": "15"
     },
     {
         "label": "Marc Bartra",
-        "value": "1"
+        "value": "9"
     },
     {
         "label": "Andres Iniesta",
-        "value": "1"
+        "value": "14"
     }
 ]
 }
