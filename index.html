@@ -45,8 +45,8 @@
 		          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Data Source
 		          <span class="caret"></span></a>
 		          <ul class="dropdown-menu">
-		            <li><a href="#" data-toggle="modal" data-target="#fileModal" ng-click = "dataType = 'jsonurl'">JSON File</a></li>
-					<li><a href="#" data-toggle="modal" data-target="#fileModal" ng-click = "dataType = 'xmlurl'" >XML File</a></li>
+		            <li><a href="#" data-toggle="modal" data-target="#fileModal" ng-click = "dataType = 'json'">JSON File</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#fileModal" ng-click = "dataType = 'xml'" >XML File</a></li>
 					<li><a href="#" data-toggle="modal" data-target="#fileModal"  ng-click = "dataType = ''">CSV File</a></li>
 					<li><a href="#" data-toggle="modal" data-target="#dataModal" >Enter Data</a></li>
 		          </ul>
@@ -126,7 +126,7 @@
 		</div>
 		<div class="modal-footer">
 			<center>
-				<button type = "button" data-dismiss = "modal" class = "btn btn-info" ng-click = "data = content; updateChart(dataType)">Done</button>
+				<button type = "button" data-dismiss = "modal" class = "btn btn-info" ng-click = "data = content; updateChart(data, dataType)">Done</button>
 			</center>
 		</div>
 
@@ -158,8 +158,8 @@
 					  <span class="caret"></span>
 				  </button>
 				  <ul class="dropdown-menu">
-					<li><a href="#" ng-click = "dataType = 'jsonurl'">JSON</a></li>
-					<li><a href="#" ng-click = "dataType = 'xmlurl'">XML</a></li>
+					<li><a href="#" ng-click = "dataType = 'json'">JSON</a></li>
+					<li><a href="#" ng-click = "dataType = 'xml'">XML</a></li>
 					<li><a href="#" ng-click = "dataType = ''">CSV</a></li>
 				  </ul>
 			  </div>
@@ -171,7 +171,7 @@
 			  </div>
 		  </div>
 		  <div class="modal-footer">
-			  <button type = "button" data-dismiss = "modal" class = "btn btn-info" ng-click = "data = rawData;  updateChart(dataType)">Done</button>
+			  <button type = "button" data-dismiss = "modal" class = "btn btn-info" ng-click = "data = rawData;  updateChart(data, dataType)">Done</button>
 			  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 		  </div>
 		</div>
